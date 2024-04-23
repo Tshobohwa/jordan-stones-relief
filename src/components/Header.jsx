@@ -20,7 +20,7 @@ const Header = () => {
         </li>
       </ul>
       <button className="h-[3rem] bg-red-400 text-white font-semibold text-lg px-5 rounded-md">
-        Donate now
+        Donate
       </button>
     </header>
   );
