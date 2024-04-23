@@ -11,7 +11,7 @@ const HomeItem = ({ index, item }) => {
           className="w-[100%] h-[100%] object-cover object-center"
         />
       </div>
-      <div className="">
+      <div className={index % 2 !== 0 ? " order-first" : ""}>
         <h3 className=" text-[2rem] font-semibold">{title}</h3>
         <p className=" text-[1.25rem]">{text}</p>
       </div>

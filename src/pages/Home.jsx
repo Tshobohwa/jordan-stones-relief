@@ -62,8 +62,8 @@ export default function Home() {
             </button>
           </div>
           <div className="w-full grid grid-cols-1 gap-y-[3rem] p-[3vw]">
-            {homeSection2.map((item) => (
-              <HomeItem item={item} />
+            {homeSection2.map((item, index) => (
+              <HomeItem item={item} index={index} />
             ))}
           </div>
         </section>
