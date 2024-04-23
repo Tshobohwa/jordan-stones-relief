@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className=" w-full h-[5rem] bg-gray-900 flex justify-between px-[2rem] items-center fixed top-0">
+    <header className=" w-full h-[5rem] bg-gray-900 flex justify-between px-[2rem] items-center fixed top-0 z-10">
       <p className="text-2xl font-bold text-white">Jordan Stones Relief</p>
       <ul className=" flex gap-5 text-white">
         <li>
