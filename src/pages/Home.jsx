@@ -2,6 +2,8 @@ import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import HomeCard from "../components/HomeCard";
+import homeSection2 from "../data/homeSection2";
+import HomeItem from "../components/HomeItem";
 
 export default function Home() {
   return (
@@ -41,7 +43,7 @@ export default function Home() {
           </div>
         </section>
         <section className=" bg-red-50 py-5">
-          <div className=" flex flex-col items-center gap-2">
+          <div className=" flex flex-col items-center">
             <h4>section text</h4>
             <h3 className=" text-3xl font-semibold mb-7">SECTION 3 TITLE</h3>
             <p className=" w-[70%] text-center">
@@ -55,11 +57,15 @@ export default function Home() {
               omnis odio nisi magnam sunt unde enim tempore, labore harum.
               Aspernatur, consequuntur!
             </p>
-            <button className=" h-[3rem] px-[2rem] rounded-md bg-red-400 text-white">
+            <button className=" h-[3rem] px-[2rem] rounded-md bg-red-400 text-white my-[2rem]">
               Read more
             </button>
           </div>
-          <div className="w-full grid grid-cols-1 gap-y-[3rem]"></div>
+          <div className="w-full grid grid-cols-1 gap-y-[3rem] p-[3vw]">
+            {homeSection2.map((item) => (
+              <HomeItem item={item} />
+            ))}
+          </div>
         </section>
       </div>
       <Footer />
