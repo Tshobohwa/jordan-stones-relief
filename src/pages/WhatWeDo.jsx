@@ -13,6 +13,21 @@ const WhatWeDo = () => {
           className=" h-[100vh] w-[100vw] object-cover"
         />
       </section>
+      <section>
+        <div className="w-[100%] flex flex-col items-center">
+          <h2>What we do</h2>
+          <p className=" w-[80%] text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo omnis
+            deserunt dicta est placeat quaerat dolor numquam, dolorum adipisci!
+            Temporibus assumenda atque officiis. Dolorum velit similique
+            deserunt, minus sunt, eum ducimus eaque ipsa cupiditate possimus
+            suscipit optio, atque impedit neque quo nisi cum. Deleniti quo at
+            laborum iste eius fugiat.
+          </p>
+        </div>
+        <h2>Our recents activities</h2>
+        <div className=" w-[100%] grid grid-cols-5 p-[2rem]">{/* {wh} */}</div>
+      </section>
       <Footer />
     </>
   );
