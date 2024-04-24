@@ -4,7 +4,7 @@ const HomeItem = ({ index, item }) => {
   const { title, text, image } = item;
   return (
     <div className=" w-full grid grid-cols-2 gap-[2vw]">
-      <div className=" w-[46vw] h-[30vw] overflow-hidden">
+      <div className=" w-[46vw] h-[30vw] overflow-hidden rounded-2xl">
         <img
           src={image}
           alt={title}

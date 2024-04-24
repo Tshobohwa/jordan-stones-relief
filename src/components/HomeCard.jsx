@@ -6,7 +6,7 @@ const HomeCard = ({ title, text, img }) => {
       <img
         src={img}
         alt={title}
-        className=" border-b-[20px] border-b-red-400"
+        className=" border-b-[20px] border-b-red-400 w-[100%] h-[20vw] object-cover object-center"
       />
       <div className=" absolute top-0 py-[2rem] px-[3rem] text-white">
         <h2 className=" text-xl">{title}</h2>
