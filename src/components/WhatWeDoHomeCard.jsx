@@ -7,7 +7,7 @@ const WhatWeDoHomeCard = ({ action }) => {
       <img
         src={image}
         alt={title}
-        className=" w-[100%] h-[20vw] object-cover object-center"
+        className=" w-[100%] h-[70vw] lg:h-[20vw] object-cover object-center"
       />
       <div className=" p-[2rem] relative">
         <div className=" absolute h-[4rem] bg-white w-[80%] px-[1.5rem] top-[-2rem] flex items-center justify-center">

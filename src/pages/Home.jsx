@@ -38,7 +38,7 @@ const Home = () => {
             South Sudan.
           </p>
         </div>
-        <div className="w-[72vw] h-[20vw] grid grid-cols-3 gap-0">
+        <div className="w-[72vw] lg:h-[20vw] grid lg:grid-cols-3 gap-0">
           <img src={image2} className=" h-[100%] object-cover object-center" />
           <img src={image3} className=" h-[100%] object-cover object-center" />
           <img src={image4} className=" h-[100%] object-cover object-center" />
@@ -49,7 +49,7 @@ const Home = () => {
         <h2 className=" text-monserat text-4xl text-gray-900 text-center">
           Area of expertize
         </h2>
-        <div className=" w-[100%] grid grid-cols-3 gap-[1.5rem] px-[2rem] self-center">
+        <div className=" w-[100%] grid lg:grid-cols-3 gap-[1.5rem] px-[2rem] self-center">
           {whatWeDo.map((action) => (
             <WhatWeDoHomeCard action={action} />
           ))}
@@ -62,7 +62,7 @@ const Home = () => {
         <h2 className=" text-monserat text-4xl text-gray-900 text-center mb-[2rem]">
           Where we work
         </h2>
-        <div className=" w-[80%] mx-auto grid grid-cols-2 gap-[2rem] ">
+        <div className=" w-[80%] mx-auto grid lg:grid-cols-2 gap-[2rem] ">
           <img src={south_sudan} alt="" />
           <div className=" flex flex-col gap-3 justify-center">
             <h3 className="text-2xl font-semibold">
