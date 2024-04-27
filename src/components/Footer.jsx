@@ -12,7 +12,7 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <footer className=" w-[100%] bg-gray-900 text-gray-50 grid grid-cols-3 p-[1.5rem]">
+    <footer className=" w-[100%] bg-gray-900 text-gray-50 gap-[2rem] grid lg:grid-cols-3 p-[1.5rem]">
       <div>
         <div>
           <h2 className=" text-[1.5rem]">JORDAN STONES RELIEF</h2>
@@ -53,7 +53,7 @@ const Footer = () => {
               <BsFillTelephoneFill />
               <p>+211 929 702 237</p>
             </a>
-          </li>{" "}
+          </li>
           <li className=" flex gap-[0.5rem]">
             <a
               href="tel:+211929702237"
