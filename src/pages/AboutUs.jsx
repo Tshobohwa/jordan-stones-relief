@@ -1,3 +1,4 @@
+import { MdOutlineTaskAlt } from "react-icons/md";
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -66,7 +67,7 @@ const AboutUs = () => {
           </div>
           <div className="p-[1rem] bg-white w-[100%] relative pt-[1.5rem]">
             <div className=" absolute top-[-2rem] text-gray-900 left-[1rem]">
-              <MdOutlineCardMembership size={64} />
+              <MdOutlineTaskAlt size={64} />
             </div>
             <h1 className="text-[1.5rem] text-red-400 text-center">Role</h1>
             <p className="text-center">
